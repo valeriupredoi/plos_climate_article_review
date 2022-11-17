@@ -7,17 +7,21 @@
 
 ### General comments
 
-The article reads well, and is easy to follow, including good illustration and support of statements via figures. However, my view is that, even if it describes well
-the experimental setup and its conditions, the article is somewhat lacking in demonstating that PEEPS is woth using:
+The article reads well, and is easy to follow, including good illustration and support of statements via figures. Structurally, it follows well, and the reader doesn't get lost in a myriad of sections and sub-sections; references are well places when they are needed, as well as pointers to available code on various code-sharing websites; figures are well captioned.
 
-- compared to other tools that perform pattern scaling
-- compared to running a number of metrics on the actual model (ESM) data (which is clearly much more resource-intensive, but the authors don't tell us by how much, in rough numbers of computing resources)
+However, my view is that, even if it describes well
+the experimental setup and its conditions, together with the results (figures and tables), the article needs to demonstrate a bit more how PEEPS, the computational toolthat is the main focus of the article, integrates and relates to other such tools and software packages, available elsewhere. I'd suggest this be addressed by adding a subsection where the authors demonstrate that:
 
-For this purpose, a more detailed comparison of performance would be nice to have. I am aware this is more of a methods paper, than it is
-a systematic review of metrics/standards/performance paper, but even so, as a reader, I would like to be reassured that PEEPS is a solid tool for my work, and I
-shouldn't look elsewhere for another tool that does the same type of analysis.
+- PEEPS is comparable to other similar tools performing pattern scaling, both in terms of performance and results;
+- PEEPS offers net performance benefits compared to running a number of metrics on the actual model (ESM) data (which is clearly much more resource-intensive, but the authors don't tell us by how much, in rough numbers of computing resources)
 
-Another point - a quick example on how to use the Jupyter notebook (guidelines for a basic used case, not anything too detailed) would be welcome, or, alternatively, a pointer to the technical documentation.
+I am aware this is more of a methods paper, than it is
+a systematic review of available tools, but even so, as a reader, I would like to be reassured that PEEPS is a solid tool for my work, and I
+shouldn't look elsewhere for another tool that does the same type of analysis. If these comparison results are available elsewhere, then simply referencing that source would be fine.
+
+As a final point, I'd suggest the authors include a quick example on how to use the Jupyter notebook (configuration, guidelines for a basic used case, not anything too detailed) or, alternatively, a pointer to the technical documentation.
+
+Specific questions and minor suggestions below -
 
 ### Tech/sci questions
 
