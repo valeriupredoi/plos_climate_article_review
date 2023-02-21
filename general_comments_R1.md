@@ -9,6 +9,14 @@
 
 ### General comments
 
+As a whole, I find this revised version of the manuscript in much better a shape than the previous version. However, there is one
+point I'd like to stress upon, and with the risk of sounding too technical, I believe the authors should address it - either in the form
+of a statement in the manuscript, or as actual code: I reckon the use of a Jupyter notebook as the only form of software for running PEEPS
+is limiting both the outreach, and the users that want to run the tool. A Python package (together with documentation, a streamlined
+way to create a virtual environment where PEEPS runs, tests, deployment to Python package indices etc.) would be the desired, and probably the
+most outreaching/portable way of shipping PEEPS, but for now, an equivalent Python script, that can be run by a user outside the Jupyter environment,
+would be most desirable. I am OK if the authors just include this as a TODO item and mention it in the manuscript.
+
 Comments marked with ">>>...<<<" were initial comments for the unrevised version (from November 2022);
 I am mostly looking at these being addressed.
 
